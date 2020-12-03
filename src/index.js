@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import './App.css';
 import reportWebVitals from './reportWebVitals';
 
 const Counter = (props) => {
@@ -58,7 +57,6 @@ const CounterApp = () => {
 ReactDOM.render(
   <React.StrictMode>
       < CounterApp />
- 
   </React.StrictMode>,
   document.getElementById('root')
 );
